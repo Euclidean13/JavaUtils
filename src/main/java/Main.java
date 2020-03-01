@@ -10,7 +10,7 @@ public class Main {
         a.setA1("aaaa");
         a.setA2("ssss");
         a.setA3("dddd");
-        FieldCopyUtil.setFields(a, b);
+        FieldCopyUtil.copyPropertiesFromOneObjectToAnother(a, b);
         System.out.println(b.getB1());
         System.out.println(b.getB2());
         System.out.println(b.getA3());
